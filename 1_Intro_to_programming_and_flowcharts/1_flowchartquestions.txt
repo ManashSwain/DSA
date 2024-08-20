@@ -1,0 +1,15 @@
+1. Flow chart to find the sum of 2 numbers .
+2. Pseudo code to find the sum of 2 numbers .
+3. Flow chart to calculate the simple interest .
+4. Flow chart to find the average of 3 numbers.
+5. Flow chart to find a < b .
+6. Pseudo code to find a < b .
+7. Flow chart to find a number is odd or even .
+8. Flow chart to find a number is +ve , -ve or 0 .
+9. Flow chart to find a triangle is valid or not .
+10. Flow chart to print from 1 - N .(Inclusive N)
+11. Flow chart to print all even numbers from 1 - N . (Inclusive N)
+12. Flow chart to print all odd numbers from 1 - N . (Inclusive N)
+13. Flow chart to find sum from 1 - N .
+14. Flow chart to find the factorial of N .
+15. Flow chart to check a number is prime or not.

@@ -1,0 +1,123 @@
+1. conditionals statements 
+
+Type 1 : if block
+Example : 
+
+if(condition){
+    ---code---
+}
+
+Type 2 : if-else block
+Example : 
+
+if(condition){
+    ---code---
+}
+else{
+    ---code---
+}
+
+Type 3 : if - else-if - else block
+Example :
+
+if(condition){
+    ---code---
+}
+else if(another condition){
+    ---code---
+}
+else {
+    ---code---
+}
+
+Questions on conditionals 
+
+1. Program to find a is greater or b is greater(take the values of a and b from user)
+2. Program to find whether a number is +ve ,-ve or 0 
+3. Find the output 
+
+   #include <iostream>
+   using namespace std ;
+
+   int main(){
+    int a = 9 ;
+    if(a==9){
+        cout << "Nine" <<endl;
+    }
+    if(a>0){
+        cout << "Positive" << endl;
+    }
+    else{
+        cout << "Negative" << endl;
+    }
+    return 0 ;
+   }
+
+4. Find the output 
+
+    #include <iostream>
+   using namespace std ;
+
+   int main(){
+    int a = 2 ;
+    int b = a+ 1 ;
+    if((a=3)==b){
+        cout << a << endl;
+    }
+    else {
+        cout << a+ 1 << endl;
+    }
+    return 0 ;
+   }
+
+   5. Find the output 
+
+    #include <iostream>
+   using namespace std ;
+
+   int main(){
+    int a = 24 ;
+    if(a>20){
+        cout << "Love" << endl;
+    }
+    else if(a==24){
+        cout << "Lovely" << endl;
+    }
+    else {
+        cout << "Babbar" << endl;
+    }
+    cout << a ;
+    return 0 ;
+   }
+
+6. Take one input from the user ,display lower case , uppercase or number.
+
+Loops :
+
+Types of loops :
+
+Type 1 : for loop
+Type 2 : while loop
+Type 3 : do while loop
+
+while loop : 
+while(condition){
+    ---code---
+}
+
+Questions :
+
+7. Print N natural numbers using while loop
+8. Print sum of N natural numbers using while loop
+9. Print sum of even natural numbers.
+10. Convert fahreneit to celcius.
+11. To check wheter a number is prime or not
+12. Print pattern 
+    * * *
+    * * *
+    * * *
+13. Print pattern
+    1 1 1
+    2 2 2
+    3 3 3
+

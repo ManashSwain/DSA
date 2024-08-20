@@ -1,0 +1,258 @@
+1. Bitwise operator 
+It operators in bit by bit 
+
+AND -> &
+OR -> |
+NOT -> ~
+XOR -> ^
+
+AND Operator(&)
+Input   Output
+a  b     z
+0  0     0
+0  1     0
+1  0     0
+1  1     1
+
+OR Operator(|)
+Input   Output
+a  b     z
+0  0     0
+0  1     1
+1  0     1
+1  1     1
+
+NOT Operator(~)
+Input   Output
+a       z
+0       1
+1       0
+
+
+XOR Operator(^)
+Input   Output
+a  b     z
+0  0     0
+0  1     1
+1  0     1
+1  1     0
+
+2.Left shift and righe shift operators 
+
+Left shift Operators (<<) (Point towards left)
+example : 5 << 1 (Left shift 5 to 1 time , convert 5 to binary and then shift one bit towards left)
+
+Right shift Operator (>>) (point towards right)
+example : 15 >> 2 (Right shift 15 to 2 times , convert 15 to binary and then shift two bit towards right)
+
+Note : Right shift divides and left shift multiplies(multiply or divide by 2 right side indicates how many times need to multiply or divide by 2 )
+
+Increment and decrement operators
+i = i + 1 can be written as i++ or i+=1 (all are same)
+
+we have 2 types in increment operators
+pre increment (++i)
+post increment (i++)
+
+we have 2 types in decrement operators
+pre decrement (--i)
+post decrement (i--)
+
+Note : post increment/decrement operator first prints the value and when it gets executed it will increment the value
+
+Questions 
+
+Question 1 :
+#include <iostream>
+using namespace std ;
+
+int main(){
+    int a , b = 1;
+    a = 10 ;
+    if(++a){
+        cout << b ;
+    }
+    else {
+        cout << ++b;
+    }
+    return 0 ;
+}
+
+Question 2 : 
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a = 1;  
+    int b = 2;
+    if(a-- > 0 && ++b > 2){
+        cout << "Stage1 - inside If";
+    }else {
+        cout << "Stage 2 - Inside else";
+    }
+    cout <<a << " " << b << endl ; 
+    return 0 ;
+}
+
+Question 3 : 
+#include <iostream>
+using namespace std ;
+
+int main(){
+    int a = 1 ;
+    int b = 2 ;
+    if(a-- > 0 || ++b > 2){
+        cout << "Stage 1 - Inside if";
+    }else {
+        cout << "Stage 2 - inside else"
+    }
+    cout << a << " " << b << endl;
+    return 0 ;
+}
+
+Question 4 :
+#include <iostream>
+using namespace std ;
+
+int main(){
+    int number = 3 ;
+    cout << (25 * (++number));
+    return 0 ;
+}
+
+Question 5 :
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a = 1 ;
+    int b = a++ ;
+    int c = ++a;
+    cout << b ;
+    cout << c;
+    return 0 ;
+}
+
+For Loop 
+
+syntax : 
+for(int i = 1 ; i <=10 , i++){
+    ---code---
+}
+
+Break and continue :
+
+Break statement breaks the flow and comes out of the loop 
+continue statement skips further down the code and goes to next iteration
+
+Questions on loops :
+
+Question 6 : Print sum from 1 - N using for loop 
+Question 7 : Print Fibonacci sequence from 1 - N using for loop
+Question 8 : Print whether a number is prime or not efficiently
+
+Questions on loops and break and continue 
+
+Question 9 :  Guess the output
+
+#include <iostream>
+using namespace std ;
+
+int main(){
+    for(int i = 0 ; i <=5 ; i++){
+      cout << i << " " ;
+      i++ ;
+    }
+    return 0 ;
+}
+
+Question 10 :  Guess the output
+
+#include <iostream>
+using namespace std ;
+
+int main(){
+    for(int i = 0 ; i <=5 ; i--){
+      cout << i << " " ;
+      i++ ;
+    }
+    return 0 ;
+}
+
+Question 11 :  Guess the output
+
+#include <iostream>
+using namespace std ;
+
+int main(){
+    for(int i = 0 ; i <=15 ; i+=2){
+      cout << i << " " ;
+      if(i&1){
+        continue;
+      }
+      i++;
+    }
+    return 0 ;
+}
+
+Question 12 :  Guess the output
+
+#include <iostream>
+using namespace std ;
+
+int main(){
+   
+    for(int i = 0 ; i <5 ; i++){
+        for(int j = i ; j <=5 ; j++){
+            cout << i << " " << j << endl;
+         }
+    }
+    return 0 ;
+}
+
+Question 13:
+#include <iostream>
+using namespace std ;
+
+int main(){
+   
+    for(int i =0;i<5;i++){
+        for(int j = i ; j <=5 ; j++){
+            if(i+j == 10){
+                break;
+            }
+            cout << i << " " << j <<endl;
+        }
+        
+    }
+    return 0 ;
+}
+
+Variable and its  scoping :
+variable declared inside a block is specific to that block
+variables in cpp can be updated but not redeclared
+
+{
+    int a = 5 ;
+    int a = 7 ; This cannot be done because in one block only one  variable a can be there
+}
+
+{int a = 67756;
+cout << a ;
+    {int a = 67546;
+    cout << a ;}
+    {int a = 6732;
+    cout << a ;}
+    {int a = 6723;
+    cout << a ;}
+}
+this can be possible but the particular variable a is limited to that block only 
+
+Operator precedence 
+check operator precedence table 
+use brackets effectively
+
+
+
+
+

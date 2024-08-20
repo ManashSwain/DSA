@@ -1,0 +1,33 @@
+1. Printing hello world in cpp
+
+2. Data Types in cpp
+
+int - stores integers
+float - stores floating point values (Eg : 1.2)
+double - stores double values  with more precision ( Eg : 1.23)
+char - stores character in single inverted commas and we can store only one character
+bool - stores true(1) or false(0)
+
+3.sizeof operator (sizeof())
+We can check the size of variable
+
+4.Typecasting
+Typecasting means changing the data type of the variable
+
+5.Type of operators (most common)
+Arithmetic : + , - , * , / 
+Logical : && , || , ! 
+comparison : > , < , <= , >= , != , == 
+increment : ++ 
+decrement : --
+
+Operators key notes :
+
+int /int = int 
+float /int = float
+double /int = double
+(Follows always numerator)
+
+6. unsigned operator
+unsigned operator always stores positive number
+
