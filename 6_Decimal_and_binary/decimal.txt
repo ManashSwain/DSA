@@ -1,0 +1,44 @@
+convert a decimal number to binary format
+There are two ways :
+
+Way 1 :
+
+steps : 
+1. divide the number by 2 .
+2. store the remainder
+3.repeat the above 2 steps until n!=0 .
+4. reverse the answer 
+
+convert the number 10 to binary 
+
+Division	Remainder
+10/2 = 5	0
+5/2 = 2	    1
+2/2 = 1	    0
+1/2 = 0	    1
+
+Now we need to reverse it : 
+answer : 1010
+
+Way 2 :
+
+logic : num&1 (if the result  is 1 then the number is odd , if the result  is 0 then the number is even )
+
+
+Example 5&1 = 0101
+              0001
+              0001 (which is 1)
+
+Example 4&1 = 0100
+              0001
+              0000 (which is 0)
+
+initialize one variable answer to 0 
+answer = 0 ;
+for first digit (bit)
+answer = (10^0 * digit) + answer
+answer = (10^1 * digit) + answer
+answer = (10^2 * digit) + answer
+answer = (10^3 * digit) + answer
+
+here digit is the output (bit what we get in every iteration of n>>1)
