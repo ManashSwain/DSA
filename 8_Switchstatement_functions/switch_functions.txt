@@ -1,0 +1,33 @@
+switch case syntax :
+
+switch(expression){
+    case constant :
+    ---code---
+    break;
+    case constant :
+    ---code---
+    break;
+    case constant :
+    ---code---
+    break;
+    default:
+    ---code--- 
+}
+
+The constant can be int or char but not float or string
+Default case is not mandatory
+we can have nested switches .
+We can execute multiple statements in a single case statement
+
+Questions :
+1.There is a infinite loop .inside loop we have switch statement.How to come out of loop .
+2.Try break statements in switch cases .
+3.Calclator problem.
+4. how many notes of 100 ,50,20 and 1 will be there in 1330 rupess .
+5.Write a function to calculate the power of the number.
+6.Write a function to find whether a number is odd or even.
+7.find nCr
+8.counting from 1-n (print from 1 to n).
+9.To check whether a number is prime or not.
+10.Arithmetic progression program.
+11.To find the number of set bits in given 2 numbers.

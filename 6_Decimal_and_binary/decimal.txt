@@ -42,3 +42,79 @@ answer = (10^2 * digit) + answer
 answer = (10^3 * digit) + answer
 
 here digit is the output (bit what we get in every iteration of n>>1)
+
+Example :
+digits are 1 ,2 and 3 
+How to get the output as 321 
+
+input : 123 output : 321
+
+int answer = 0 ;
+
+1st iteration :
+answer = (10^0 * digit) + answer
+       = (1*1)+0
+answer = 1
+
+2nd iteration :
+answer = (10^1 * digit) + answer
+       = (10*2)+1
+answer = 21
+
+3rd iteration :
+answer = (10^2 * 3) + answer
+       = (100*3)+21
+answer = 321
+
+Now input 123 and output 123 
+
+int answer = 0 ;
+1st iteration:
+answer = (10*answer) + digit
+       = 0+1
+answer = 1
+
+2nd iteration:
+answer = (10*answer) + digit
+       =  10*1+2
+       = 10+2
+answer = 12
+
+3rd iteration:
+answer = (10*answer) + digit
+       =  10*12+3
+       = 120+3
+answer = 123
+
+
+simplified from :
+
+input = 123 
+output =321
+initialize answer = 0 ;
+answer = (10^i*digit)+answer
+
+input = 123 
+output =123
+initialize answer = 0 ;
+answer = (10*answer)+digit
+
+Reverse an integer 
+123 =>321
+answer = 0 ;
+answer = (answer*10) + digit... 
+
+Formulas :
+Decimal to binary : answer = (pow(10,i)*bit) + answer ;
+Binary to Decimal:  answer = (pow(2,i) * digit) + answer;
+questions :
+
+1. Convert a decimal to binary
+2. Convert a binary number to decimal number.
+3. Reverse an integer 
+4. convert negative number to binary format
+
+
+
+
+
