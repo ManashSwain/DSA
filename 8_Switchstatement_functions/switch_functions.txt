@@ -31,3 +31,47 @@ Questions :
 9.To check whether a number is prime or not.
 10.Arithmetic progression program.
 11.To find the number of set bits in given 2 numbers.
+12. Fetch last number in Fibonacci series .
+13.Guess the output .
+
+#include <iostream>
+using namespace std;
+
+void update(int a){
+    a=a/2;
+}
+int main(){
+    int a = 10;
+    update(a);
+    cout << a << endl;
+    return 0;
+}
+14.Guess the output .
+
+#include <iostream>
+using namespace std;
+
+int updates(int a){
+    a-=5;
+    return a ;
+}
+int main(){
+    int a = 15;
+    updates(a);
+    cout << a << endl;
+    return 0;
+}
+15.Guess the output:
+#include <iostream>
+using namespace std;
+
+int updates(int a){
+    int ans = a* a;
+    return ans ;
+}
+int main(){
+    int a = 14;
+     a = updates(a);
+    cout << a << endl;
+    return 0;
+}
