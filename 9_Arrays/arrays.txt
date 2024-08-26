@@ -1,0 +1,20 @@
+an array is a collection of elements of the same type, stored in contiguous memory locations. Arrays are used to store multiple values in a single variable, rather than declaring separate variables for each value.
+
+Key Features of Arrays:
+
+    Fixed Size: The size of an array is fixed at the time of its creation. Once defined, the size of the array cannot be changed during runtime.
+
+    Indexing: Elements in an array are accessed using an index, starting from 0 for the first element. For example, in an array arr, arr[0] would access the first element, arr[1] the second, and so on.
+
+    Homogeneous: All elements in an array must be of the same type, such as int, float, char, etc.
+
+    Contiguous Memory: Elements are stored in contiguous memory locations, making access to elements via indices efficient.
+
+    Note : if the size of an array is 15 and if you fill only 2 elements the rest will be filled by 0.
+
+Questions
+
+1.Initialize an array of size 100000 and fill the entire array by some value.
+2.fill all the elements by number 0 in an array .
+3.fill all the elements by  number 1 in an array .
+4.take input from the user and store it in an array and add the elements to get the sum .
