@@ -1,0 +1,12 @@
+Questions 
+
+1. Swap Alternate elements in an araay .
+2. Find Unique element.
+3. Find duplicates.
+4. Array Intersection
+5. Pair sum.
+6. Triplets sum.
+7. sort 0 1 .
+8. sort 0 1 2 .
+9. unique no of occurance(1207 leetcode).
+10. Find all duplicates in an array(442 leetcode).

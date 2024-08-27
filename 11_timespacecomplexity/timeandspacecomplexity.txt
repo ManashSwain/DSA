@@ -1,0 +1,71 @@
+Basic definition:
+
+Time complexity : 
+It is the amount of time taken by an algorithm to run .
+
+How it is measured ?
+ 1. Big O notation. (upper bound) => means at max i can eat 3 bananas at 5seconds .(means even thought i eat slowly it will take me a maxium of 5 seconds)
+ 2. Theta  (for avg-case-complexity) 
+ 3. Omega (lower bound) => means i can eat 5 bananas in 2 seconds
+
+( Most used is Big O )
+
+constant time => O(1)
+Linear time => O(n)
+Logarithimic time => O(log n)
+Quadratic time => O(n2) n square
+Cubic time => O(n3) n cube
+
+
+Time Complexity
+
+Time Complexity refers to the amount of time an algorithm takes to complete as a function of the size of the input. It provides an upper bound on the time required by an algorithm to run, which helps in comparing the efficiency of different algorithms.
+Key Points:
+
+    Big O Notation (O):
+        Describes the upper bound of the time complexity.
+        It represents the worst-case scenario and provides an asymptotic analysis.
+
+    Common Time Complexities:
+        O(1): Constant time - the algorithm takes the same time regardless of input size.
+        O(log n): Logarithmic time - the time increases logarithmically with the input size.
+        O(n): Linear time - the time increases linearly with the input size.
+        O(n log n): Log-linear time - often seen in efficient sorting algorithms like Merge Sort.
+        O(n^2): Quadratic time - the time increases quadratically with the input size, common in algorithms with nested loops.
+        O(2^n): Exponential time - the time doubles with each additional element, common in brute-force algorithms.
+
+    Examples:
+        O(1): Accessing an element in an array.
+        O(n): Traversing an array.
+        O(n^2): Bubble sort.
+
+How to Analyze:
+
+    Identify the Basic Operations: Determine the core operations performed by the algorithm (e.g., comparisons, swaps).
+    Count the Number of Operations: Express the number of operations as a function of the input size.
+    Determine the Dominant Term: Simplify to the most significant term as the input size grows.
+
+Space Complexity
+
+Space Complexity refers to the amount of memory an algorithm uses in relation to the size of the input. It helps in understanding how much space an algorithm requires to execute.
+Key Points:
+
+    Big O Notation (O):
+        Represents the upper bound of space requirements.
+        Similar to time complexity, it provides an asymptotic analysis.
+
+    Common Space Complexities:
+        O(1): Constant space - the algorithm uses a fixed amount of space regardless of input size.
+        O(n): Linear space - the space requirement grows linearly with the input size.
+        O(n^2): Quadratic space - the space requirement grows quadratically.
+
+    Examples:
+        O(1): Using a fixed number of variables.
+        O(n): Storing an array of size n.
+        O(n^2): Using a 2D matrix for storing pairs.
+
+How to Analyze:
+
+    Identify the Extra Space: Determine the space used beyond the input.
+    Count the Space Used: Express the space requirement as a function of the input size.
+    Determine the Dominant Term: Simplify to the most significant term as the input size grows.
