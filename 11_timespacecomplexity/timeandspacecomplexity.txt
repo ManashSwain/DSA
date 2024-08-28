@@ -10,11 +10,23 @@ How it is measured ?
 
 ( Most used is Big O )
 
-constant time => O(1)
-Linear time => O(n)
-Logarithimic time => O(log n)
-Quadratic time => O(n2) n square
-Cubic time => O(n3) n cube
+constant time => O(1) Eg: If a loop is running 10 times it is constant time
+Linear time => O(n) Eg : if a loop is running from 1-n it is linear time 
+Logarithimic time => O(log n) Eg : Binary search.
+Quadratic time => O(n2) n square 2 Eg :nested loops 
+Cubic time => O(n3) n cube  Eg : 3 nested loops 
+
+graph for time complexity 
+
+1. O(N!) => higher time complexity (It will take more time for running).
+2. O(2^n)
+3. O(N^3)
+4. O(N^2)
+5. O(N log N)
+6. O(N)
+7. O(Log N)
+8. O(1) => Lowest time complexity (fastest)
+
 
 
 Time Complexity
@@ -69,3 +81,112 @@ How to Analyze:
     Identify the Extra Space: Determine the space used beyond the input.
     Count the Space Used: Express the space requirement as a function of the input size.
     Determine the Dominant Term: Simplify to the most significant term as the input size grows.
+
+    Questions :
+    calculate the time complexity 
+
+1. f(n) -> 2n^2 + 3n 
+  answer : O(n^2)
+
+2. f(n) -> 4n^4 + 3n^3
+   answer : O(n^4)
+
+3. f(n) -> n^2 + Log n 
+   answer : O(n^2)
+
+4. f(n) -> 12001
+   answer : O(1)
+
+5. f(n) -> 3n^2 + 2n^2 + 5
+   answer : O(n^3)
+
+6. f(n) -> n^3/300
+   answer : O(n^3)
+
+7. f(n) -> 5n^2 + logn
+   answer : O(n^2)
+
+8. f(n) -> n/4
+   answer : O(n)
+
+9 f(n) -> n + 4 /4
+  answer : O(n)
+
+10 : 
+
+int a = 0 , b = 0 ;
+for(i = 0 ; i<N ; i++){
+    a = a + rand();
+}
+for(j = 0 ; j<M ; j++){
+    b = b + rand();
+}
+
+answer : O(n+m)
+
+11 :
+int a = 0 , b = 0 ;
+for(i = 0 ; i<N ; i++){
+    for(j = 0 ; j<N ; i++){
+    a= a+j;
+}
+}
+for(k = 0 ; k<N; k++){
+    b = b + k;
+}
+
+answer : O(n^2) +O(n)
+       = O(n^2)
+
+
+12 : 
+
+int a = 0  ;
+for(i = 0 ; i<N ; i++){
+    for(j = N ; j<i ; i--){
+    a= a+i+j;
+}
+}
+
+answer : O(n^2)
+
+Space complexity problems 
+
+13 . 
+int a = 0 , b = 0 ;
+for(i = 0 ; i<N ; i++){
+    a = a + rand();
+}
+for(j = 0 ; j<M ; j++){
+    b = b + rand();
+}
+
+answer : O(1)
+
+14. int a = 0 , b = 0 ;
+for(i = 0 ; i<N ; i++){
+    for(j = 0 ; j<N ; i++){
+    a= a+j;
+}
+}
+for(k = 0 ; k<N; k++){
+    b = b + k;
+}
+
+answer : O(1)
+
+15 .
+
+ int a = 0 ;
+for(i = 0 ; i<N ; i++){
+    for(j = N ; j>i ; j--){
+    a= a+i+j;
+}
+}
+
+answer : O(1)
+
+
+
+
+
