@@ -1,0 +1,6 @@
+Question 1 :
+First and last position of an element in sorted array 
+Question 2 :
+Peak Index in a Mountain Array
+Question 3 :
+Total number of occurances of the element in an array 
