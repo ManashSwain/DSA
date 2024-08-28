@@ -1,0 +1,3 @@
+Binary search is implement on monotonic function means the array should be in increasing order or decreasing  order.
+
+
