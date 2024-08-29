@@ -1,0 +1,8 @@
+question 1 : 
+find pivot in an array 
+question 2 :
+search in sorted rotated array.
+question 3 :
+square root .
+question 4 :
+square root with more precision
