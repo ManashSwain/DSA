@@ -1,2 +1,6 @@
 Question 1 :
 book allocation problem 
+Question 2 :
+Painters partition problem 
+question 3 :
+Aggressive cows problem
