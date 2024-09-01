@@ -1,0 +1,8 @@
+Selection sort is a simple comparison-based sorting algorithm. It works by dividing the array into a sorted and an unsorted part. The sorted part is built up from the left to the right at the front of the array, and at each step, the smallest (or largest, depending on the sorting order) element is selected from the unsorted part and moved to the end of the sorted part.
+
+Time Complexity
+
+    Best, Average, and Worst Case: O(n^2) comparisons and swaps.
+    Space Complexity: O(1) (in-place sorting).
+
+Selection sort is not efficient for large datasets, but it is easy to implement and understand, making it useful for teaching purposes or sorting small datasets.
