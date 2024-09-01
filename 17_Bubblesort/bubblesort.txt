@@ -1,0 +1,9 @@
+Bubble sort is a simple comparison-based sorting algorithm. It works by repeatedly stepping through the list, comparing adjacent elements, and swapping them if they are in the wrong order. The process is repeated until the list is sorted.
+
+Time Complexity
+
+    Best Case: O(n) when the array is already sorted (with the optimization).
+    Average and Worst Case: O(n^2) comparisons and swaps.
+    Space Complexity: O(1) (in-place sorting).
+
+Bubble sort is not the most efficient sorting algorithm for large datasets, but it is easy to understand and implement, making it useful for educational purposes.
