@@ -1,0 +1,9 @@
+Insertion sort is another simple, comparison-based sorting algorithm. It works by building a sorted portion of the array one element at a time, taking each element from the unsorted portion and inserting it into its correct position in the sorted portion.
+
+It is adaptable and stable 
+
+Time Complexity
+
+    Best Case: O(n) when the array is already sorted.
+    Average and Worst Case: O(n^2) when the array is sorted in reverse order.
+    Space Complexity: O(1) (in-place sorting).
