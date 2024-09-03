@@ -1,0 +1,82 @@
+The Standard Template Library (STL) in C++ is a powerful set of C++ template classes that provide general-purpose classes and functions with templates that implement many popular and commonly used algorithms and data structures like vectors, stacks, queues, lists, and more.
+Main Components of STL
+
+STL is divided into four main components:
+
+    Containers
+    Algorithms
+    Iterators
+    Functions (or Function Objects)
+
+1. Containers
+
+Containers are objects that store data. They can be divided into three categories:
+
+    Sequence Containers: Store data in a linear fashion.
+        vector
+        deque
+        list
+        array (C++11)
+        forward_list (C++11)
+
+    Associative Containers: Store data in a sorted manner and allow fast retrieval.
+        set
+        map
+        multiset
+        multimap
+
+    Unordered Associative Containers: These store data in an unordered manner using hash tables.
+        unordered_set
+        unordered_map
+        unordered_multiset
+        unordered_multimap
+
+    Container Adapters: Provide a different interface for sequential containers.
+        stack
+        queue
+        priority_queue
+
+        2. Algorithms
+
+STL provides many algorithms that can be used to perform operations on data stored in containers. These algorithms are implemented as function templates.
+
+Some commonly used algorithms:
+
+    sort: Sorts a range of elements.
+    reverse: Reverses the order of elements in a range.
+    max_element: Finds the maximum element in a range.
+    min_element: Finds the minimum element in a range.
+    accumulate: Returns the sum of a range of elements.
+
+    3. Iterators
+
+Iterators are used to point to the memory addresses of STL containers. They are like pointers but can iterate over the elements of the containers.
+
+Common types of iterators:
+
+    Input Iterator: Reads elements from the container.
+    Output Iterator: Writes elements to the container.
+    Forward Iterator: Moves forward through the container.
+    Bidirectional Iterator: Moves forward and backward.
+    Random Access Iterator: Directly access any element in constant time.
+
+    4. Functions (Function Objects or Functors)
+
+Function objects are objects that can be treated as though they are a function or function pointer. They are instances of classes with operator() overloaded.
+
+
+Summary
+
+    Containers hold data.
+    Algorithms manipulate data.
+    Iterators provide a way to access data.
+    Function objects (functors) can be passed to algorithms.
+
+The STL provides a rich set of functionalities that allow for efficient data manipulation and retrieval, making C++ a powerful language for competitive programming and system-level programming.
+
+video notes :
+
+STL : Standard template library 
+
+vector : with the help of vector we can create dynamic array 
+vector doubles the size of the array after some intervals 

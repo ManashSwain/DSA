@@ -1,0 +1,10 @@
+1. array
+2. vector
+3. deque
+4. list
+5. stack
+6. queue
+7. priority queue
+8. set
+9. map
+10. inbuilt algorithms( eg : binary search)
