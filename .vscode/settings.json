@@ -47,6 +47,7 @@
         "xutility": "cpp",
         "array": "cpp",
         "stack": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "vector": "cpp"
     }
 }
