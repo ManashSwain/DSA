@@ -1,0 +1,27 @@
+strings are 1 dimentional char
+after string is completed it initializes with a null character to indicate that a string is completed .
+
+initialization of char :
+char ch = 'A' ;
+
+initialization of char arrays 
+char ch[10];
+
+null character : '\0' ;
+
+
+questions :
+1.Find the length of the string.
+2. reverse a string 
+3.check if a string is palindrome or not.
+4.valid palindrome.
+5.reverse words
+6.maximum occuring characters
+7.remove all occurace of a substring
+8.remove all adjacent duplicates
+9. string compression.
+
+
+to get spaces also in input 
+cin.getline(str,length)
+
