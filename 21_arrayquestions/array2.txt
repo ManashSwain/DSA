@@ -1,0 +1,4 @@
+1 .Rotate an array 
+2. check if array is sorted and rotated
+3. add 2 arrays 
+
