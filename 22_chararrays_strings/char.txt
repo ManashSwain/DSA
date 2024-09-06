@@ -20,6 +20,7 @@ questions :
 7.remove all occurace of a substring
 8.remove all adjacent duplicates
 9. string compression.
+10.permutation 
 
 
 to get spaces also in input 
