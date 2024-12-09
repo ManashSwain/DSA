@@ -104,7 +104,7 @@ int main(){
     if(a-- > 0 || ++b > 2){
         cout << "Stage 1 - Inside if";
     }else {
-        cout << "Stage 2 - inside else"
+        cout << "Stage 2 - inside else";
     }
     cout << a << " " << b << endl;
     return 0 ;
